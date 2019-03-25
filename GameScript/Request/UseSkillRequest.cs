@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Common;
+
+public class UseSkillRequest : BaseRequest {
+
+    public PVPFightPanel pvpFightPanel;
+    public override void Start()
+    {
+        actionCode = ActionCode.UseSkill;
+        requestCode = RequestCode.Room;
+        base.Start();
+    }
+
+    public void SendRequest(string data)
+    {
+        base.SendRequest(data);
+    }
+    public override void OnResponse(string data)
+    {
+        string[] strs = data.Split('|');
+        if ((ReturnCode)int.Parse(strs[0]) == ReturnCode.Waiting)
+        {
+            pvpFightPanel.OnSkillEffectResponse(data);
+        }
+        else
+        {
+            pvpFightPanel.OnUseSkillResponse(data);
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\mini\4.0\服务端\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\mini\4.0\服务端\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\mini\4.0\服务端\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\mini\4.0\服务端\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\mini\4.0\服务端\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\mini\4.0\服务端\Common\obj\Debug\Common.pdb
+E:\runoob01\4.0\服务端\Common\bin\Debug\Common.dll
+E:\runoob01\4.0\服务端\Common\bin\Debug\Common.pdb
+E:\runoob01\4.0\服务端\Common\obj\Debug\Common.csprojAssemblyReference.cache
+E:\runoob01\4.0\服务端\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\runoob01\4.0\服务端\Common\obj\Debug\Common.dll
+E:\runoob01\4.0\服务端\Common\obj\Debug\Common.pdb
